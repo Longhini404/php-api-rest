@@ -4,6 +4,10 @@ $conteudoControl = new ConteudoControl();
 
 header('Content-Type: application/json');
 
+$saida=[];
+
 foreach($conteudoControl->findAll() as $valor){
-	echo json_encode($valor);
+	$saida[]=$valor;
 }
+
+echo json_encode($saida);
