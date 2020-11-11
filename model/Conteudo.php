@@ -1,5 +1,5 @@
 <?php
-include '../conection/conexao.php';
+include '../connection/conexao.php';
 
 class Conteudo extends Conexao{
 	private $titulo;
