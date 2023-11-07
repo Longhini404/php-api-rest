@@ -1,4 +1,4 @@
-# Iniciando o Servidor Web:
+# Localhost
 
 - $ cd ~/public_html
 - $ php -S localhost:8000
